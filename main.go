@@ -122,7 +122,12 @@ func main() {
 		}
 
 		for key, value := range record {
-			record[key] = *value.(*interface{})
+			indirect := *value.(*interface{})
+			if value, ok := indirect.([]byte); ok {
+				record[key] = string(value)
+			} else {
+				record[key] = indirect
+			}
 		}
 
 		records = append(records, record)
