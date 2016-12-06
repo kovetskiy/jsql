@@ -36,7 +36,7 @@ $ echo '[{"a":1,"f":3.14},{"a":2,"b":"3"}]' | jsql 'SELECT * FROM data'
 
 ## Installation
 
-ArchLinux User Repository:
+Arch Linux User Repository:
 
 [https://aur.archlinux.org/packages/jsql-git/](https://aur.archlinux.org/packages/jsql-git/)
 
