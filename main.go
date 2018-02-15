@@ -10,7 +10,7 @@ import (
 
 	"github.com/kovetskiy/godocs"
 	"github.com/reconquest/ser-go"
-	"github.com/seletskiy/hierr"
+	"github.com/reconquest/hierr-go"
 
 	_ "github.com/mattn/go-sqlite3"
 )
